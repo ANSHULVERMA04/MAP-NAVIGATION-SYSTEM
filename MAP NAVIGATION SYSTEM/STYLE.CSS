@@ -1,0 +1,23 @@
+
+#mapid {
+  height: 500px;
+  width: 100%;
+  margin: auto;
+  border: 2px solid #333;
+  border-radius: 10px;
+}
+body{
+  font-family: sans-serif;
+  text-align: center;
+  padding: 10px;
+}
+
+#directions-panel {
+  background: #f9f9f9;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  max-height: 300px;
+  overflow-y: auto;
+  font-family: sans-serif;
+}
