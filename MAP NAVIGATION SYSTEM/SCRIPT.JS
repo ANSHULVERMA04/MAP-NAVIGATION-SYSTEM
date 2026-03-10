@@ -44,7 +44,7 @@ function selectDestination(lat, lng, name) {
 }
 
 
-const ORS_API_KEY = 'eyJvcmciOiI1YjNjZTM1OTc4NTExMTAwMDFjZjYyNDgiLCJpZCI6IjUxNGVhZjk3N2FiZDQ2MGI4N2E3OGQxOThkYjRjODkwIiwiaCI6Im11cm11cjY0In0='; 
+const ORS_API_KEY = ; 
 
 async function getRoutes() {
   const srcText = document.getElementById('source').value;
@@ -248,4 +248,5 @@ if ("geolocation" in navigator) {
   );
 } else {
   alert("Geolocation is not supported by your browser.");
+
 }
